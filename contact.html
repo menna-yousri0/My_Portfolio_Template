@@ -1,61 +1,75 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Page</title>
+  <title>Contact </title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-
-  
-  <section class="contact">
-    <h2>Get in Touch</h2>
-    <hr>
-
-    <h3>SEND US A NOTE</h3>
-
-    <form action="." method="post" class="contact-form">
-      <input type="text" name="name" placeholder="Name" required>
-      <br><br>
-      <input type="email" name="email" placeholder="Email" required>
-      <br><br>
-      <textarea name="message" placeholder="Tell us more about your needs........" required></textarea>
-      <br><br>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  
-  <section class="contact-info">
-    <h3>ADDRESS</h3>
-    <p>4th Floor, Plot No.22,<br>
-       145 Murphy Canyon Rd.<br>
-       San Diego CA 2028</p>
-
-    <p>&#128222; (060) 444 434 444</p>
-    <p>&#9742; (060) 555 545 555</p>
-    <p>&#128231; chat@simone.com</p>
-  </section>
-
-  
-  <section class="social">
-    <h3>FOLLOW ME</h3>
-    <p>
-      <a href="."><img src="icon-dribbble.png" alt="Dribbble"></a>
-      <a href="."><img src="icon-twitter.png" alt="Twitter"></a>
-      <a href="."><img src="icon-facebook.png" alt="Facebook"></a>
-      <a href="."><img src="icon-google.png" alt="Google"></a>
-      <a href="."><img src="icon-github.png" alt="GitHub"></a>
-    </p>
-  </section>
+<body class="bg-dark text-light">
 
 
-  <footer>
-    <p>Copyright © 2022 <strong>Simone</strong>. All Rights Reserved.</p>
-    <p>
-      <a href=".">Terms & Policy</a> | <a href=".">Disclaimer</a>
-    </p>
-  </footer>
+  <div class="container py-5">
+
+    
+    <h2 class="text-center fw-bold mb-5">Get in Touch</h2>
+
+    <div class="row justify-content-center">
+      
+      <div class="col-md-6 mb-5">
+        <h5 class="text-center mb-4">SEND US A NOTE</h5>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control bg-secondary text-light border-0" placeholder="Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control bg-secondary text-light border-0" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control bg-secondary text-light border-0" rows="4" placeholder="Tell us more about your needs..."></textarea>
+          </div>
+          <div class="d-flex justify-content-center ">
+          <button type="submit" class="btn  w-50 rounded-pill custom-hover">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    
+    <div class="text-center">
+      <h5 class="mb-4">ADDRESS</h5>
+      <p>4th Floor, Plot No.22,<br>145 Murphy Canyon Rd.<br>San Diego CA 2028</p>
+
+      <p><i class="icon bi-telephone-fill  me-2"></i>(060) 444 434 444</p>
+      <p><i class="icon bi-printer-fill  me-2"></i>(060) 555 545 555</p>
+      <p><i class="icon bi-envelope-fill  me-2"></i>chat@simone.com</p>
+    </div>
+
+   
+    <div class="text-center mt-5">
+      <h5 class="mb-4">FOLLOW ME</h5>
+      <a href="." class="text-light mx-2"><i class="bi bi-dribbble fs-4"></i></a>
+      <a href="." class="text-light mx-2"><i class="bi bi-twitter fs-4"></i></a>
+      <a href="." class="text-light mx-2"><i class="bi bi-facebook fs-4"></i></a>
+      <a href="." class="text-light mx-2"><i class="bi bi-google fs-4"></i></a>
+      <a href="." class="text-light mx-2"><i class="bi bi-github fs-4"></i></a>
+    </div>
+
+   
+    <footer class="text-center mt-5 small ">
+      <p>Copyright © 2022 <span class="text">Simone</span>. All Rights Reserved.</p>
+      <a href="." class="text-light text-decoration-none">Terms & Policy</a> |
+      <a href="." class="text-light text-decoration-none">Disclaimer</a>
+    </footer>
+  </div>
 
 </body>
 </html>

@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #2b2f34;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: rgb(204, 96, 128); 
+  margin: 10px auto 0;
+  border-radius: 3px;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+  
+}
+
+.btn{
+  background-color: rgb(204, 96, 128);
+  border-color: beige;
+  border-width: 3px;
+}
+
+.custom-hover:hover{
+  color: black;
+  background-color: beige;
+  border-color: rgb(204, 96, 128);
+  border-width:6px ;
+  transform: scale(1);
+}
+
+.icon{
+  color: rgb(204, 96, 128);
+}
+
+.text{
+  color: rgb(204, 96, 128);
+}
