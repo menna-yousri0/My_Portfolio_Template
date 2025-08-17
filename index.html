@@ -7,51 +7,65 @@
     <title>
         Simone-Personal Portfolio Template
     </title>
+
+    <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
-    <header>
-        <h1>Simone</h1>
-        <nav>
-            <a href="#home_page">Home</a>
-            <a href="#about_page">About</a>
-            <a href="#what_i_do_page">What I Do</a>
-            <a href="#resume_page">Resume</a>
-            <a href="#portfolio_page">Portfolio</a>
-            <a href="#client_page">Client</a>
-            <a href="#contact_page">Contact</a>
+    <div id="home_page">
+        <!-- <header> -->
+        <!-- <div class="static"> -->
+        <h1 class="logo">Simone</h1>
+        <div class="nav">
+            <nav>
+                <span class="bar"><a href="#home_page">Home</a></span>
+                <span class="bar"> <a href="#about_page">About</a></span>
+                <span class="bar"> <a href="#what_i_do_page">What I Do</a></span>
+                <span class="bar"> <a href="#resume_page">Resume</a></span>
+                <span class="bar"> <a href="#portfolio_page">Portfolio</a></span>
+                <span class="bar"> <a href="#client_page">Client</a></span>
+                <span class="bar"> <a href="#contact_page">Contact</a></span>
 
 
 
 
-        </nav>
-    </header>
+            </nav>
+        </div>
+        <!-- </header> -->
 
-    <aside>
-        <div>
-            <div>
-                <a href="twitter.com">
-                    <img src="twitter.png" alt="twitter">
-                </a>
+        <aside>
+            <div class="icons">
+                <span>
+                    <a href="facebook.com">
+                        <img src="facebook.jpg" alt="facebbook" class="icon1">
+                    </a>
+                </span>
+
+                <span class="icon2">
+                    <a href="twitter.com">
+                        <img src="twitter.png" alt="twitter" id="icon2">
+                    </a>
+                </span>
+
             </div>
-            <div>
-                <a href="facebook.com">
-                    <img src="facebook.jpg" alt="facebook">
-                </a>
-            </div>
+        </aside>
+        <!-- </div> -->
+
+
+        <div class="text">
+            <p class="a">Welcome</p>
+            <p class="b">I'm Simone Olivia.</p>
+            <!-- <P class="b">I'm a Freelancer.</P>
+            <p class="b">I'm a Programmer.</p> -->
+
+            <p class="c">based in Los Angeles, California.</p>
+            <br>
+            <br>
+            <a class="d" href="#contact_page">Hire Me</a>
         </div>
 
-    </aside>
-
-    <p>Welcome</p>
-
-    <div>
-        <p>I'm Simone Olivia.</p>
-        <P>I'm a Freelancer.</P>
-        <p>I'm a Programmer.</p>
     </div>
-    <p>based in Los Angeles, California.</p>
-    <a href="#contact_page">Hire Me</a>
 
 
 
@@ -59,44 +73,50 @@
 
     <div id="about_page">
         <h2>Know Me More</h2>
-        <div>
-            <p>I'm Simone Olivia, a Web Developer.</p>
-            <p>I help you build brand for your business at an affordable price. Thousands of clients have procured
-                exceptional results while working with our dedicated team. when an unknown printer took a galley of type
+        <div class="intro">
+            <p class="intro_p">I'm Simone Olivia, a Web Developer.</p>
+            <p class="main_p">I help you build brand for your business at an affordable price. Thousands of clients have
+                procured
+                exceptional results while working with our dedicated team. when an unknown printer took a galley of
+                type
                 and
-                scrambled it to make a type specimen book.</p>
-            <p>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has
+                scrambled it to make a type specimen book. <br><br>
+                Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has
                 been
                 the industry's standard dummy text ever when an unknown printer took a galley.</p>
         </div>
-        <div>
+        <div class="form">
             <p>Name:Simone Olivia</p>
+            <hr>
             <p>Email: <a href="mailto:chat@simone.com">mennayousri044@gmail.com</a></p>
+            <hr>
             <p>Age:28</p>
+            <hr>
             <p> From:Los Angeles, California</p>
-            <button>Download CV</button>
+            <hr>
+            <a class="cv" href="#">Download CV</a>
         </div>
 
-        <div>
-            <div>
-                <p>10+</p>
-                <p>Years Experience</p>
-            </div>
-            <div>
-                <p>250+</p>
-                <p>Happy Clients</p>
-            </div>
-            <div>
-                <p>650+</p>
-                <p>Projects Done</p>
-            </div>
-            <div>
-                <p>38</p>
-                <p>Get Awards</p>
-            </div>
+
+        <span class="num1">
+            <p class="num_p">10+</p>
+            <p>Years Experience</p>
+        </span>
+        <span class="num2">
+            <p class="num_p">250+</p>
+            <p>Happy Clients</p>
+        </span>
+        <span class="num3">
+            <p class="num_p">650+</p>
+            <p>Projects Done</p>
+        </span>
+        <span class="num4">
+            <p class="num_p">38</p>
+            <p>Get Awards</p>
+        </span>
 
 
-        </div>
+
 
     </div>
 
@@ -119,7 +139,8 @@
                 <div class="service-text">
                     <h2>Graphic Design</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p> &#x1F3A8; </p>
@@ -131,7 +152,8 @@
                 <div class="service-text">
                     <h2>Web Design</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p> &#x1F4BB;</p>
@@ -143,7 +165,8 @@
                 <div class="service-text">
                     <h2>UI/UX Design</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p>&#x270F;&#x1F4CF;</p>
@@ -155,7 +178,8 @@
                 <div class="service-text">
                     <h2>App Design & Developer</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p>&#x1F58C; </p>
@@ -166,7 +190,8 @@
                 <div class="service-text">
                     <h2>Business Analysis</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p>&#x1F304 </p>
@@ -177,7 +202,8 @@
                 <div class="service-text">
                     <h2>SEO Marketing</h2>
                     <p>
-                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                        Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                        iriure.
                     </p>
                     <div class="icon">
                         <p>&#x1F4E2 </p>
@@ -194,84 +220,100 @@
 
 
     <div id="resume_page">
-        <h2>Resume</h2>
-        <div>
+        <h2 class="resume">Resume</h2>
+        <div class="card1">
             <h3>My Education</h3>
-            <div>
-                <p>2000-2004</p>
+            <div class="card">
+                <p class="year">2000-2004</p>
                 <p>Computer Science</p>
-                <p>International University</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color"> International University</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
-            <div>
-                <p>2005-2008</p>
+            <div class="card">
+                <p class="year">2005-2008</p>
                 <p>Bachelor Degree</p>
-                <p>University of California</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color">University of California</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
-            <div>
-                <p>2009-2012</p>
+            <div class="card">
+                <p class="year">2009-2012</p>
                 <p>Master Degree</p>
-                <p>Harvard University</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color">Harvard University</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
         </div>
-        <div>
+        <div class="card2">
             <h3>My Experience</h3>
-            <div>
-                <p>2012 - 2013</p>
+            <div class="card">
+                <p class="year">2012 - 2013</p>
                 <p>Jr. UI UX Designer</p>
-                <p>Themeforest</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color">Themeforest</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
-            <div>
-                <p>2014 - 2016</p>
+            <div class="card">
+                <p class="year">2014 - 2016</p>
                 <p>Jr. Product Designer</p>
-                <p>Dribbble</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color">Dribbble</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
-            <div>
-                <p>2017 - 2019</p>
+            <div class="card">
+                <p class="year">2017 - 2019</p>
                 <p>Product Designer</p>
-                <p>Adobe</p>
-                <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                <p class="color">Adobe</p>
+                <p class="alfa">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim
+                    iriure.
+                </p>
             </div>
         </div>
-        <div>
-            <h3>My Skills</h3>
 
+        <h3  >My Skills</h3>
+        <div class="range1">
+            
             <div>
-                <p>Web Design <span> 65%</span></p>
+                <p>Web Design <span class="space"> 65%</span></p>
                 <label for="range"></label>
                 <input type="range" min="0" max="100" step="1" value="65" disabled>
             </div>
             <div>
-                <p>HTML/CSS <span>95%</span></p>
+                <p>HTML/CSS <span class="space">95%</span></p>
                 <label for="range"></label>
                 <input type="range" min="0" max="100" step="1" value="95" disabled>
             </div>
             <div>
-                <p> JavaScript<span>80%</span></p>
+                <p> JavaScript<span class="space">80%</span></p>
                 <label for="range"></label>
                 <input type="range" min="0" max="100" step="1" value="80" disabled>
             </div>
+        </div>
+        <div class="range2">
+           
             <div>
-                <p> React JS<span>70%</span></p>
+                <p> React JS<span class="space">70%</span></p>
                 <label for="range"></label>
                 <input type="range" min="0" max="100" step="1" value="70" disabled>
             </div>
             <div>
-                <p>Angular Js <span>60%</span></p>
+                <p>Angular Js <span class="space">60%</span></p>
                 <label for="range"></label>
                 <input type="range" min="0" max="100" step="1" value="60" disabled>
             </div>
             <div>
-                <p>Bootstrap <span>99%</span></p>
+                <p>Bootstrap <span class="space">99%</span></p>
                 <label for="range"></label>
-                <input type="range" min="0" max="100" step="1" value="99" disabled>
+                <input type="range" min="0" max="100" step="1" value="99" disabled >
             </div>
-
         </div>
+
 
 
     </div>
@@ -294,7 +336,8 @@
                     <h3>Dennis Jacques</h3>
                     <p class="sub">User from USA</p>
                     <p class="text">
-                        “Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced
+                        “Only trying it out since a few days. But up to now excellent. Seems to work flawlessly.
+                        priced
                         simply dummy text of the printing and typesetting industry.”
                     </p>
                     <div class="rating">
@@ -313,7 +356,8 @@
                     <h3>Chris Tom</h3>
                     <p class="sub">User from UK</p>
                     <p class="text">
-                        “I have used them twice now. Good rates, very efficient service and priced simply dummy text of
+                        “I have used them twice now. Good rates, very efficient service and priced simply dummy text
+                        of
                         the printing and typesetting industry quidam interesset his et. Excellent.”
                     </p>
                     <div class="rating">
@@ -351,7 +395,8 @@
                     <h3>Patrick Cary</h3>
                     <p class="sub">Freelancer from USA</p>
                     <p class="text">
-                        “I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his
+                        “I am happy Working with printing and typesetting industry. Quidam lisque persius interesset
+                        his
                         et, in quot quidam persequeris essent possim iriure.”
                     </p>
                     <div class="rating">
