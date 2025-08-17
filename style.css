@@ -32,11 +32,6 @@ h2::after {
   border-radius: 5px;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-}
 
 .card {
   display: flex;
@@ -76,4 +71,5 @@ h2::after {
   margin: 5px 0 0;
   font-size: 14px;
   color: #b6b5b5;
+
 }
