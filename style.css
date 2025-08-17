@@ -1,75 +1,45 @@
-
-
-  body {
-  background-color: #2d323b;
-  color: #e7e6e6;
+body {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 50px 20px;
+  background-color: #2b2f34;
 }
 
 h2 {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 40px;
-  color: #fff;
   position: relative;
 }
 
 h2::after {
   content: "";
   display: block;
-  width: 90px;
+  width: 80px;
   height: 3px;
-  background: rgb(204, 96, 128);
+  background: rgb(204, 96, 128); 
   margin: 10px auto 0;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
-
-
-.card {
-  display: flex;
-  align-items: center;
-  background: #3a3f47;
-  padding: 20px;
-  border-radius: 12px;
-  transition: all 0.3s ease;
+.form-control::placeholder {
+  color: #aaa;
+  
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  background: #444b55;
+.btn{
+  background-color: rgb(204, 96, 128);
+  border-color: beige;
+  border-width: 3px;
 }
 
-.icon-box {
-  width: 100px;
-  height: 50px;
-  background: #222;
-  border-radius: 10px;
+.custom-hover:hover{
+  color: black;
+  background-color: beige;
+  border-color: rgb(204, 96, 128);
+  border-width:6px ;
+  transform: scale(1);
+}
+
+.icon{
   color: rgb(204, 96, 128);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  border-radius: 10px;
-  margin-right: 20px;
 }
 
-.content h5 {
-  margin: 0;
-  font-weight: 600;
-  color: #fff;
-}
-
-.content p {
-  margin: 5px 0 0;
-  font-size: 14px;
-  color: #b6b5b5;
+.text{
+  color: rgb(204, 96, 128);
 }
