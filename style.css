@@ -1,45 +1,61 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #2b2f34;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
 }
 
-h2 {
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
   position: relative;
 }
 
-h2::after {
+.section-title::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 110px;
   height: 3px;
-  background: rgb(204, 96, 128); 
+  background: rgb(204, 96, 128);
   margin: 10px auto 0;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
-.form-control::placeholder {
-  color: #aaa;
-  
+.slide {
+  background: #2a2a2a;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  height: 100%;
 }
 
-.btn{
-  background-color: rgb(204, 96, 128);
-  border-color: beige;
-  border-width: 3px;
+.slide img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
-.custom-hover:hover{
-  color: black;
-  background-color: beige;
-  border-color: rgb(204, 96, 128);
-  border-width:6px ;
-  transform: scale(1);
+.slide h5 {
+  margin-bottom: 0.2rem;
+  font-weight: bold;
 }
 
-.icon{
-  color: rgb(204, 96, 128);
+.slide .info {
+  font-size: 0.9rem;
+  color: #ccc;
 }
 
-.text{
-  color: rgb(204, 96, 128);
+.slide blockquote {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-top: 20px;
+}
+
+.stars {
+  color: gold;
+  margin-top: 20px;
 }
