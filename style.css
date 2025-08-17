@@ -1,5 +1,5 @@
 body {
-  background-color: #1e1e1e;
+  background-color: aquamarine;
   color: #fff;
   font-family: Arial, sans-serif;
 }
@@ -58,4 +58,5 @@ body {
 .stars {
   color: gold;
   margin-top: 20px;
+
 }
